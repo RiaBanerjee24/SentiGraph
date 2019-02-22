@@ -1,0 +1,17 @@
+{% extends 'analyse/base.html' %}
+    {% block title %}Sentigraph{% endblock %}
+
+{% block body %}
+
+<div class="headings">
+    <form action="results/" method="post" style="font-size:24px">
+        {% csrf_token %}
+        Input {{ form }}
+        <button type="submit" class="submitButton" ><span>Submit</span></button>
+        <!--<br><input type="checkbox"> Search by date-->
+        
+    </form>
+
+
+</div>
+{% endblock %}
