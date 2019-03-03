@@ -1,0 +1,6 @@
+Methods                   : Accuracy
+Bernoulli Naive Bayes     : 0.82
+Multinomial Naive Bayes   : 0.82
+Logistic Regression       : 0.84
+Support Vector Machines   : 0.84
+LSTM Neural Network model : 0.86
